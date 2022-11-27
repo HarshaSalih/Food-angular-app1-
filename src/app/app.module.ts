@@ -31,6 +31,30 @@ const myRoute:Routes=[
     
   },
   {
+    path:"snacks",
+    component:FoodSnacksComponent
+    
+  },
+  {
+    path:"biriyanis",
+    component:FoodBiriyanisComponent
+    
+  },
+  {
+    path:"chinese",
+    component:FoodChineseComponent
+    
+  },
+  {
+    path:"soups",
+    component:FoodSoupsComponent
+    
+  },
+  {
+    path:"desserts",
+    component:FoodDessertsComponent
+  },
+  {
     path:"search",
     component:FoodSearchComponent
   }
