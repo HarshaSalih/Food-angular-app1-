@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { UserRegisterComponent } from './user-register/user-register.component';
-import { FoodEntryComponent } from './food-entry/food-entry.component';
+
 import { FoodSearchComponent } from './food-search/food-search.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FoodStartersComponent } from './food-starters/food-starters.component';
 
 const myRoute:Routes=[
   {
@@ -20,8 +21,9 @@ const myRoute:Routes=[
     component:UserRegisterComponent
   },
   {
-    path:"entry",
-    component:FoodEntryComponent
+    path:"starters",
+    component:FoodStartersComponent
+    
   },
   {
     path:"search",
@@ -35,9 +37,9 @@ const myRoute:Routes=[
     AppComponent,
     UserLoginComponent,
     UserRegisterComponent,
-    FoodEntryComponent,
     FoodSearchComponent,
-    NavbarComponent
+    NavbarComponent,
+    FoodStartersComponent
   ],
   imports: [
     BrowserModule,
