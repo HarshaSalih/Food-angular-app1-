@@ -13,6 +13,7 @@ import { FoodStartersComponent } from './food-starters/food-starters.component';
 import { FoodSnacksComponent } from './food-snacks/food-snacks.component';
 import { FoodBiriyanisComponent } from './food-biriyanis/food-biriyanis.component';
 import { FoodChineseComponent } from './food-chinese/food-chinese.component';
+import { FoodSoupsComponent } from './food-soups/food-soups.component';
 
 const myRoute:Routes=[
   {
@@ -45,7 +46,8 @@ const myRoute:Routes=[
     FoodStartersComponent,
     FoodSnacksComponent,
     FoodBiriyanisComponent,
-    FoodChineseComponent
+    FoodChineseComponent,
+    FoodSoupsComponent
   ],
   imports: [
     BrowserModule,
