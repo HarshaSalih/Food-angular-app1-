@@ -12,6 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FoodStartersComponent } from './food-starters/food-starters.component';
 import { FoodSnacksComponent } from './food-snacks/food-snacks.component';
 import { FoodBiriyanisComponent } from './food-biriyanis/food-biriyanis.component';
+import { FoodChineseComponent } from './food-chinese/food-chinese.component';
 
 const myRoute:Routes=[
   {
@@ -43,7 +44,8 @@ const myRoute:Routes=[
     NavbarComponent,
     FoodStartersComponent,
     FoodSnacksComponent,
-    FoodBiriyanisComponent
+    FoodBiriyanisComponent,
+    FoodChineseComponent
   ],
   imports: [
     BrowserModule,
