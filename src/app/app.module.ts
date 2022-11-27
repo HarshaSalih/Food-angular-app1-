@@ -11,6 +11,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FoodStartersComponent } from './food-starters/food-starters.component';
 import { FoodSnacksComponent } from './food-snacks/food-snacks.component';
+import { FoodBiriyanisComponent } from './food-biriyanis/food-biriyanis.component';
 
 const myRoute:Routes=[
   {
@@ -41,7 +42,8 @@ const myRoute:Routes=[
     FoodSearchComponent,
     NavbarComponent,
     FoodStartersComponent,
-    FoodSnacksComponent
+    FoodSnacksComponent,
+    FoodBiriyanisComponent
   ],
   imports: [
     BrowserModule,
