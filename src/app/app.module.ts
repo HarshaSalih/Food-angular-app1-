@@ -10,6 +10,7 @@ import { FoodSearchComponent } from './food-search/food-search.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FoodStartersComponent } from './food-starters/food-starters.component';
+import { FoodSnacksComponent } from './food-snacks/food-snacks.component';
 
 const myRoute:Routes=[
   {
@@ -39,7 +40,8 @@ const myRoute:Routes=[
     UserRegisterComponent,
     FoodSearchComponent,
     NavbarComponent,
-    FoodStartersComponent
+    FoodStartersComponent,
+    FoodSnacksComponent
   ],
   imports: [
     BrowserModule,
