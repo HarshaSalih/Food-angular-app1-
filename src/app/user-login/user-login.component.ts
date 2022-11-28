@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class UserLoginComponent {
 
+
+  userName=""
+  password=""
+
+
+  readValues=()=>
+  {
+    let data:any={"userName":this.userName,"password":this.password}
+    console.log(data)
+  }
+
 }

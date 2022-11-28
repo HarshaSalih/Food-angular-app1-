@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class UserRegisterComponent {
 
+  name=""
+  email=""
+  password=""
+  confirmPassword=""
+
+
+
+  readValues=()=>
+  {
+    let data:any={"name":this.name,"email":this.email,"password":this.password,"confirmPassword":this.confirmPassword}
+    console.log(data)
+  }
+
 }

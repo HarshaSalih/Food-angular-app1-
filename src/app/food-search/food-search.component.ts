@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class FoodSearchComponent {
 
+  title=""
+
+  readValues=()=>
+  {
+    let data:any={"title":this.title}
+    console.log(data)
+  }
+
+
 }

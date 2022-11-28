@@ -10,29 +10,29 @@
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                     <label for="" class="form-label text-dark">Name</label>
-                    <input type="text" class="form-control">
+                    <input name="name" [(ngModel)]="name" type="text" class="form-control">
 
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                     <label for="" class="form-label text-dark">Email</label>
-                    <input type="text" class="form-control">
+                    <input name="email" [(ngModel)]="email" type="text" class="form-control">
 
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                     <label for="" class="form-label text-dark">Password</label>
-                    <input type="password" name="" id="" class="form-control">
+                    <input name="password" [(ngModel)]="password" type="password" name="" id="" class="form-control">
 
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                     <label for="" class="form-label text-dark">Confirm password</label>
-                    <input type="password" name="" id="" class="form-control">
+                    <input name="confirmPassword" [(ngModel)]="confirmPassword" type="password" name="" id="" class="form-control">
 
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
-                    <button class="btn btn-success" routerLink="">Register</button>
+                    <button (click)="readValues()" class="btn btn-success" routerLink="">Register</button>
                  </div>
 
                 </div>
