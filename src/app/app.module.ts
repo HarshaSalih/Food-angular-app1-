@@ -15,6 +15,7 @@ import { FoodBiriyanisComponent } from './food-biriyanis/food-biriyanis.componen
 import { FoodChineseComponent } from './food-chinese/food-chinese.component';
 import { FoodSoupsComponent } from './food-soups/food-soups.component';
 import { FoodDessertsComponent } from './food-desserts/food-desserts.component';
+import { FormsModule } from '@angular/forms';
 
 const myRoute:Routes=[
   {
@@ -78,7 +79,8 @@ const myRoute:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoute)
+    RouterModule.forRoot(myRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
